@@ -7,7 +7,9 @@
   --gradient-first-color: #45515c ;
   --gradient-second-color: #8E8086 ;
   --secondary-gradient-first-color: #081b2c ;
-  --secondary-gradient-second-color: #598596
+  --secondary-gradient-second-color: #598596 ;
+  --logo-gradient-first-color: #196f74 ;
+  --logo-gradient-second-color: #939393 ;
 }
 
 body {
@@ -19,8 +21,8 @@ body {
   font-weight: var(--primary-font-weight);
   color: var(--primary-font-color);
   font-size: var(--primary-font-size);
-  background-image: url("background.png"); /* Add the background image */
-  background-size: cover; /* Ensure the image covers the entire screen */
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Prevent tiling */
+  /* background-image: url("background.jpg");
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat; */
 }
