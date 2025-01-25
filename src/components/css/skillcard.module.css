@@ -1,0 +1,18 @@
+.card {
+    display: flex;
+    left: 10%;
+    background-color: white;
+    /* align-items: center; */
+    /* justify-content: center; */
+    flex-direction: column;
+}
+
+.img-container {
+    width: 20%;
+    border: 2px red solid;
+}
+.card-image {
+    border: 2px red solid;
+    width: 100%;
+    height: auto;
+}

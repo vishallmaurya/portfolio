@@ -10,7 +10,7 @@ export const Button = ({
     return (
         <button className={classname} {...props}>
             {children}
-            <FontAwesomeIcon icon={logo} />
+            { logo && <FontAwesomeIcon icon={logo} /> }
         </button>
     )
 }
