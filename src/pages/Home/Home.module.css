@@ -1,7 +1,9 @@
 @import url('../../index.css');
 
-.header-heading {
+.header-container {
     display: flex;
+    justify-content: center ;
+    align-items: center;
     flex-direction: column; 
     width: 100%;
     height: 100vh;
@@ -17,19 +19,38 @@
 }
 
 .main-content-container {
-    width: 50%; 
+    width: 70%; 
     display: flex;
     justify-content: center; 
     align-items: center;
     flex-direction: column;
-    position: absolute; 
-    left: 50%;
-    transform: translate(-50%); 
-    margin-top: 2rem;
+    /* position: absolute;  */
+    /* left: 50%; */
+    /* transform: translate(-50%);  */
+    margin-top: 3rem;
     border-radius: 1rem;
     box-shadow: -12px 18px 16px rgba(0, 0, 0, 0.8); 
     background: linear-gradient(to right, var(--secondary-gradient-first-color), var(--secondary-gradient-second-color));
 }
+
+
+.image-container {
+    width: 150px ;
+    height: 150px ;
+    border-radius: 50%;
+    box-shadow: -3px 1px 16px rgba(241, 230, 253, 0.8); 
+    
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+
 
 .button-resume {
     margin: 1.5rem 0 1rem 0;
@@ -49,4 +70,12 @@
 
 .button-resume:hover {
     cursor: pointer;
+}
+
+.introduction-container {
+    background-color: #E1E8E8;
+    display: flex;
+    justify-content: center;
+    border-radius: 0 0 1rem 1rem;
+    gap: 1rem;
 }

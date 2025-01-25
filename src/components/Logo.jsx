@@ -6,9 +6,6 @@ import { faLinkedinIn, faGithub, faXTwitter } from "@fortawesome/free-brands-svg
 export const Logo = () => {
     return (
         <>
-            <div className={styles["image-container"]}>
-                    <img src="logo.png" alt="" />
-            </div>
             <div className={ styles["logos-container"] }>
                 <div className={styles["logo"]} >
                     <FontAwesomeIcon icon={faLinkedinIn} />

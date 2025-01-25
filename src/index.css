@@ -21,8 +21,7 @@ body {
   font-weight: var(--primary-font-weight);
   color: var(--primary-font-color);
   font-size: var(--primary-font-size);
-  /* background-image: url("background.jpg");
   background-size: cover; 
   background-position: center;
-  background-repeat: no-repeat; */
+  background-repeat: no-repeat;
 }
