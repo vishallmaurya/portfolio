@@ -1,5 +1,5 @@
 import { Logo } from "../../components/Logo";
-import { About } from "../About/About";
+import { About } from "../About";
 import { Skills } from "../Skills/Skills";
 import { Button } from "../../components/Button";
 
