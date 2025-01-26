@@ -10,6 +10,8 @@
   --secondary-gradient-second-color: #598596 ;
   --logo-gradient-first-color: #196f74 ;
   --logo-gradient-second-color: #939393 ;
+
+  --containers-background-color: #E1E8E8 ;
 }
 
 body {
