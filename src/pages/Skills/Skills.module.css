@@ -10,5 +10,14 @@
     color: rgb(59, 59, 59);
     font-size: 16px;
     word-spacing: 0.1rem;
+    flex-wrap: wrap;
     width: 45%;
+}
+
+.skillscard {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap; 
+    align-items: flex-start;
+    justify-content: center;
 }

@@ -1,18 +1,51 @@
 .card {
     display: flex;
-    left: 10%;
-    background-color: white;
-    /* align-items: center; */
-    /* justify-content: center; */
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
+    height: 150px;
+    width: 150px;
+    border-radius: 1rem;
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for better visibility */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add hover effects */
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Lift effect */
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2); /* Slightly deeper shadow */
 }
 
 .img-container {
-    width: 20%;
-    border: 2px red solid;
+    background: linear-gradient(to right, var(--gradient-first-color), var(--gradient-second-color)); /* Smooth gradient */
+    width: 80px;
+    height: 80px;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Ensure the image stays within the container */
 }
+
 .card-image {
-    border: 2px red solid;
     width: 100%;
-    height: auto;
+    height: 100%;
+    object-fit: cover; /* Ensures the image fits well within the container */
+    border-radius: 1rem; /* Keeps it consistent with the container */
+}
+
+.card h3 {
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--primary-font-color);
+    text-align: center;
+    margin: 0;
+}
+
+.card p {
+    font-size: 0.85rem;
+    color: rgb(100, 100, 100); /* Softer color for text */
+    text-align: center;
+    margin: 0.2rem 0 0;
 }
