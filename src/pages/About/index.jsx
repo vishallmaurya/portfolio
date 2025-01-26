@@ -5,15 +5,8 @@ export const About = () => {
         <>
             <div className={styles["introduction"]}>
                 <h2>About Me</h2>
-                <p>Hi, I'm Vishal Maurya, a software developer and data science enthusiast currently pursuing my MCA at NIT Jamshedpur. With a solid academic foundation and hands-on experience, I specialize in Python, Java, and C++ and have a strong interest in machine learning, data science, and web development.</p>
                 <p>
-                I'm the creator of veda-lib, a Python library for automating data preprocessing, published on PyPI to streamline workflows for data scientists. I've also worked on impactful projects like a sentiment analysis model with 89% accuracy, a Java-based quiz application.
-                </p>
-                <p>
-                As a researcher, I co-authored DWAEF: Deep Weighted Average Ensemble Framework, applying advanced ML techniques in NLP to detect sarcasm, published in a data science journal.
-                </p>
-                <p>
-                I'm also active in competitive programming, solving 500+ problems on LeetCode and contributing to technical teams and coding events at NIT Jamshedpur. With a passion for innovation, I'm always eager to learn, create, and collaborate on meaningful projects.
+                I am a competitive programmer, problem solver, full-stack web developer and machine learning enthusiast, seeking a challenging role at a reputed organization to utilize my skills that can contribute to the company's growth as well as enhance my knowledge by exploring new things. I'm currently pursuing a Master of Computer Applications from National Institute of Technology, Jamshedpur and pursued a Bachelor's degree from Keshav Mahavidyalaya, University of Delhi. With a background in Computer Science Honours, my interests lie in Programming, and I am an enthusiastic learner in Competitive Programming, maintaining a decent profile on CODEFORCE, LEETCODE, HACKER RANK, CODING NINJA. In development, I have Backend skills in Node.js and frontend skills in CSS and React.js. In machine learning, I have published a research paper in a reputed journal and gain knowledege of Fuzzy logic, Tensorflow, Transformer and NLP. I've worked on several projects using these technologies. I also enjoy public speaking and teaching. I love learning new technologies and staying updated to flex my creativity to create amazing things.
                 </p>
             </div>
         </>

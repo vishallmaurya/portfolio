@@ -24,13 +24,19 @@ export const Home = () => {
                 <div className={styles["center"]}>
                     <Button logo={faArrowDown} classname={styles["button-resume"]}>Resume</Button>
                 </div>
+
+                <div className={styles["heading"]}>
+                    Introduction
+                    <div className={ styles["heading-after"] }></div>
+                </div>
                 <div className={styles["introduction-container"]}>
                     <About />
                     <Skills />
                 </div>
                 
-                <div className={styles["works-heading"]}>
-                    My Skills
+                <div className={styles["heading"]}>
+                    My Works
+                    <div className={ styles["heading-after"] }></div>
                 </div>
                 <div className={styles["works-container"]}>
                     <Works />
