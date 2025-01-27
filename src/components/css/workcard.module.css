@@ -1,4 +1,4 @@
-.workcard{
+.workcard {
     display: flex;
     position: relative;
     align-items: center;
@@ -20,6 +20,7 @@
     justify-content: center;
     align-items: center;
     position: relative;
+    overflow: hidden;
 }
 
 .image-container img {
@@ -36,21 +37,62 @@
     word-spacing: 0.1rem;
     color: rgb(59, 59, 59);
     margin: 0 0 1.5rem 0;
+    text-align: center;
 }
 
 .content-overlay {
     position: absolute;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    gap: 1rem; 
     color: black;
     font-weight: bold;
     opacity: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
     transition: opacity 0.5s ease;
     z-index: 1;
- } 
+    padding: 1rem;
+}
 
-.workcard:hover .image-container img {
+.workcard:hover .image-container .image-container-img {
     opacity: 0.1;
 }
 
 .workcard:hover .content-overlay {
     opacity: 1;
+}
+
+.content-overlay-btns {
+    display: flex; 
+    justify-content: center;
+    gap: 1rem;
+    top: 20%;
+    width: 100%;
+    margin-top: auto; 
+}
+
+.content-overlay-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem; 
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    text-align: center;
+}
+
+.btn-image img {
+    max-width: 28px; 
+    max-height: 28px;
+}
+
+
+.btn-content {
+    font-size: 18px;
+    font-weight: bold;
 }
