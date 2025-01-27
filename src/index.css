@@ -14,10 +14,13 @@
   --containers-background-color: #E1E8E8 ;
 }
 
-body {
+*{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+body {
   background: linear-gradient(to right, var(--gradient-first-color) , var(--gradient-second-color));
   font-family: var(--primary-font);
   font-weight: var(--primary-font-weight);
