@@ -1,0 +1,8 @@
+.work-card-container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    margin: 2rem 0 2rem 0 ;
+    gap: 1rem;
+}

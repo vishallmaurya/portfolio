@@ -3,7 +3,7 @@ import styles from "./Works.module.css";
 
 export const Works = () => {
     return (
-        <div>
+        <div className={styles["work-card-container"]}>
             <WorkCard img_url="dwaef.png">content</WorkCard>
             <WorkCard img_url="veda.png">content</WorkCard>
             <WorkCard img_url="calmspace.png">content</WorkCard>
