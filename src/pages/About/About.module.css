@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding: 0 0.75rem 0 0.75rem;
+    padding: 1rem 0 0 0 ;
     margin: 1.2rem 0 1.2rem 0;
     width: 45%;
     box-shadow: -3px 5px 16px rgba(0, 0, 3, 0.8); 
@@ -10,4 +10,9 @@
     font-size: 16px;
     word-spacing: 0.1rem;
     color: rgb(59, 59, 59);
+}
+
+.introduction p {
+    padding: 1rem  ;
+
 }

@@ -6,6 +6,7 @@ import { Button } from "../../components/Button";
 import styles from "./Home.module.css";
 import { faArrowDown } from "@fortawesome/free-solid-svg-icons";
 import { Works } from "../Works";
+import { Education } from "../Education";
 
 
 export const Home = () => {
@@ -40,6 +41,14 @@ export const Home = () => {
                 </div>
                 <div className={styles["works-container"]}>
                     <Works />
+                </div>
+
+                <div className={styles["heading"]}>
+                    My Education
+                    <div className={ styles["heading-after"] }></div>
+                </div>
+                <div className={styles["education-container"]}>
+                    <Education></Education>
                 </div>
             </div>
         </div>
