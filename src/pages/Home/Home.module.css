@@ -89,6 +89,8 @@
     justify-content: center;
     flex-direction: column;
     border-radius: 0 0 1rem 1rem; 
+    padding-bottom: 2rem;
+    border: 2px red solid;
 }
 
 .heading {

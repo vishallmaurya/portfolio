@@ -32,10 +32,10 @@ export const Education = () => {
                 </div>
             </div>
             <div className={ styles["education-content"] }>
-                <h2>{value.course}</h2>
-                <p>{value.college}</p>
-                <span>{value.start_year}</span>-<span>{value.end_year}</span>
-                <p>{value.content}</p>
+                <h2 className={styles["education-content-h"]}>{value.course}</h2>
+                <p className={styles["education-content-p"]}>{value.college}</p>
+                <span className={styles["education-content-span"]}>{`${value.start_year}-${value.end_year}`}</span>
+                <p className={styles["education-content-p"]}>{value.content}</p>
             </div>
         </>
     );
