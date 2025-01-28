@@ -1,0 +1,18 @@
+[
+    {
+        "name": "graduation",
+        "course": "B.sc. Hons Computer Science",
+        "college": "Keshav Mahavidyalaya, University of Delhi",
+        "start_year": "2020",
+        "end_year": "2023",
+        "content": "As an undergraduate student, I developed a strong foundation in Computer Science. My coursework and projects helped me enhance my problem-solving and logical reasoning skills, particularly in areas like algorithms, programming, and system design. Engaging with computational challenges has been a fulfilling way to exercise my analytical thinking and technical expertise."
+    },
+    {
+        "name": "post-graduation",
+        "course": "Master of Computer Application",
+        "college": "National Institute of Technology, Jamshedpur",
+        "start_year":"2023",
+        "end_year": "2026",
+        "content": "As an MCA student, I have expertise in web development using the MERN stack and backend technologies like Node.js, Express.js, and MongoDB. I also have experience in data science, including data analysis and machine learning with Python. Additionally, I am skilled in C++ and problem-solving using Data Structures and Algorithms."
+    }
+]

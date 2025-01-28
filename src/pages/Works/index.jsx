@@ -1,15 +1,8 @@
-import { useEffect, useState } from "react";
 import { WorkCard } from "../../components/WorkCard";
 import styles from "./Works.module.css";
-import workData from "../../../api/work_data.json";
+import data from "../../../api/work_data.json";
 
 export const Works = () => {
-    const [data, setData] = useState([]);
-
-    useEffect(() => {
-        setData(workData);
-    }, []);
-
     return (
         <div className={styles["work-card-container"]}>
             {

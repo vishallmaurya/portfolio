@@ -59,10 +59,12 @@
 }
 
 .workcard:hover .image-container .image-container-img {
+    cursor: pointer;
     opacity: 0.1;
 }
 
 .workcard:hover .content-overlay {
+    cursor: pointer;
     opacity: 1;
 }
 

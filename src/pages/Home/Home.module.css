@@ -85,8 +85,10 @@
 .education-container {
     background-color: var(--containers-background-color);
     display: flex;
+    align-items: center;
     justify-content: center;
-    border-radius: 0 0 1rem 1rem;
+    flex-direction: column;
+    border-radius: 0 0 1rem 1rem; 
 }
 
 .heading {
