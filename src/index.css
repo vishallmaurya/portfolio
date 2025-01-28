@@ -3,7 +3,6 @@
   --primary-font-weight: 400 ;
   --primary-font-color: #f3faff ;
   --primary-font-size: 24px;
-  
   --gradient-first-color: #45515c ;
   --gradient-second-color: #8E8086 ;
   --secondary-gradient-first-color: #081b2c ;
@@ -13,6 +12,26 @@
 
   --containers-background-color: #E1E8E8 ;
 }
+
+::-webkit-scrollbar {
+  width: 10px; 
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f0f0f0; 
+  border-radius: 5px; 
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(49, 45, 45);
+  border-radius: 5px; 
+}
+
+::-webkit-scrollbar-corner {
+  background: #f0f0f0;
+}
+
 
 *{
   padding: 0;

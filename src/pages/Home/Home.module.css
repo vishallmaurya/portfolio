@@ -26,6 +26,18 @@
     background: linear-gradient(to right, var(--secondary-gradient-first-color), var(--secondary-gradient-second-color));
 }
 
+.header-nav-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 50%;
+}
+
+.header-content-one {
+    display: flex;
+    justify-content: center;
+}
+
 
 .image-container {
     width: 150px ;
@@ -42,10 +54,13 @@
     border-radius: 50%;
 }
 
+
 .center {
     display: flex;
+    width: 40%;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 

@@ -1,0 +1,25 @@
+.nav-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-links {
+    box-shadow: -3px 1px 16px rgba(0, 0, 3, 0.8); 
+    background: linear-gradient(to right, var(--logo-gradient-first-color), var(--logo-gradient-second-color)) ;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-links:hover {
+    cursor: pointer;
+}
+
+.nav-links-img {
+    color: white;
+    width: 60%;
+    height: 60%;
+}
