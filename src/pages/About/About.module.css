@@ -6,13 +6,14 @@
     margin: 1.2rem 0 1.2rem 0;
     width: 45%;
     box-shadow: -3px 5px 16px rgba(0, 0, 3, 0.8); 
+    font-size: 22px;
     border-radius: 1rem;
-    font-size: 16px;
-    word-spacing: 0.1rem;
+    word-spacing: 0.5rem;
     color: rgb(59, 59, 59);
 }
 
 .introduction p {
     padding: 1rem  ;
+    font-size: 20px;
 
 }

@@ -27,8 +27,8 @@ export const Home = () => {
                     </div>
                     <div className={` ${styles["header-nav-container"]} `}>
                         <Nav />
-                        <div>
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit quis atque et repellendus dolore accusamus repudiandae vitae dolor esse nemo totam vero quibusdam quae illum excepturi debitis, dolores delectus nihil.
+                        <div style={{ display: "flex", justifyContent: "center", alignItems: "center", height: "100%"}}>
+                        Software Engineer | Developer | 📚 Lifelong Learner Building open-source tools to make life easier.
                         </div>
                     </div>
                 </div>

@@ -28,7 +28,6 @@
 
 .header-nav-container {
     display: flex;
-    justify-content: space-evenly;
     flex-direction: column;
     width: 50%;
 }
@@ -88,6 +87,7 @@
     background-color: var(--containers-background-color);
     display: flex;
     justify-content: center;
+    position: relative;
     gap: 1rem;
 }
 
@@ -113,6 +113,7 @@
 .heading {
     width: 100%;
     font-size: 24px;
+    font-size: var(--primary-font-size);
     font-weight: bolder;
     box-sizing: border-box;
     padding: 1.5rem 1rem 0 1.5rem;

@@ -1,6 +1,8 @@
 .nav-container {
     display: flex;
-    justify-content: space-evenly;
+    padding-top: 4rem;
+    justify-content: space-between;
+    align-items:flex-start;
 }
 
 .nav-links {
