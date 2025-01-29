@@ -3,8 +3,11 @@ import styles from "./Contact.module.css";
 
 export const Contact = () => {
     return (
-        <>
-            <Form/>
-        </>
+        <div className={styles["contact-container"]}>
+            <div className={styles["contact-lines"]}>
+                Searching for enthusiast engineer? You're at right place!!
+            </div>
+            <Form />
+        </div>
     )
 }

@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Home",
+        "image_url": "home.png"
+    },
+    {
+        "name": "Introduction",
+        "image_url": "introduction.png"
+    },
+    {
+        "name": "Work",
+        "image_url": "work.png"
+    },
+    {
+        "name": "Education",
+        "image_url":"education.png"
+    },
+    {
+        "name": "Contact",
+        "image_url": "contact.png"
+    }
+]

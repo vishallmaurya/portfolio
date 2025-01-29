@@ -2,18 +2,23 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding: 1rem 0 0 0 ;
+    padding: 1.6rem;
     margin: 1.2rem 0 1.2rem 0;
     width: 45%;
     box-shadow: -3px 5px 16px rgba(0, 0, 3, 0.8); 
     font-size: 22px;
     border-radius: 1rem;
-    word-spacing: 0.5rem;
     color: rgb(59, 59, 59);
 }
 
 .introduction p {
+    text-align: justify;
     padding: 1rem  ;
-    font-size: 20px;
+    font-size: 18px;
+    line-height: 1.6rem;
+}
 
+span{
+    white-space: normal;
+    font-weight: bold;
 }

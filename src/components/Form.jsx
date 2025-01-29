@@ -3,22 +3,20 @@ import styles from "./css/form.module.css";
 import emailjs from "emailjs-com";
 
 export const Form = () => {
-  const { register, handleSubmit, reset } = useForm(); // Added reset to clear the form
-
+  const { register, handleSubmit, reset } = useForm(); 
+  
   const onSubmit = (data) => {
     console.log(data);
 
     emailjs
-      .send(import.meta.env.VITE_SERVICE_ID, import.meta.env.VITE_TEMPLATE_ID, data, import.meta.env.VITE_USER_ID) 
+      .send(import.meta.env.VITE_SERVICE_ID, import.meta.env.VITE_TEMPLATE_ID, data, import.meta.env.VITE_USER_ID)
       .then(
         (response) => {
           console.log("Message sent successfully:", response);  
-          console.log("Message sent successfully!");
           reset(); 
         },
         (error) => {
           console.error("Error sending message:", error);
-          console.log("Failed to send message. Please try again later.");
         }
       );
   };
