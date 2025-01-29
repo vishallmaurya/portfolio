@@ -14,10 +14,34 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+}
+
+.nav-links-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.nav-span{
+    padding: 1rem 0 0 0 ;
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    transform: translateY(120%);
+    font-size: 16px;
+    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
 }
 
 .nav-links:hover {
     cursor: pointer;
+}
+
+.nav-links-container:hover .nav-span {
+    opacity: 1;
+    visibility: visible;
 }
 
 .nav-links-img {

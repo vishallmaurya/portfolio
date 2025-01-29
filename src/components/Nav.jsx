@@ -10,8 +10,11 @@ export const Nav = ({names}) => {
         <div className={styles["nav-container"]}>
             {
                 data.map((value) => (
-                    <div key={value.name} onClick={()=>scrollToSection(value.name)} className={ styles["nav-links"] }>
-                        <img src={value.image_url} alt="" className={styles["nav-links-img"]} />
+                    <div key={value.name} className={ styles["nav-links-container"] }>
+                        <div onClick={()=>scrollToSection(value.name)} className={ styles["nav-links"] }>
+                            <img src={value.image_url} alt="" className={styles["nav-links-img"]} />
+                        </div>
+                        <span className={styles["nav-span"]}>{ value.name }</span>
                     </div>
                 ))
             }
