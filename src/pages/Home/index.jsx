@@ -4,11 +4,13 @@ import { Skills } from "../Skills";
 import { Button } from "../../components/Button";
 
 import styles from "./Home.module.css";
-import { faArrowDown } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowUp, faArrowDown } from "@fortawesome/free-solid-svg-icons"; 
 import { Works } from "../Works";
 import { Education } from "../Education";
 import { Contact } from "../Contact";
 import { Nav } from "../../components/Nav";
+import { ScrollButton } from "../../components/ScrollButton";
 import data from "../../../api/nav_data.json";
 import { useRef } from "react";
 
@@ -43,39 +45,40 @@ export const Home = () => {
                 
                     
 
-                <div className={styles["heading"]}>
+                <div ref={names["Introduction"]} className={styles["heading"]}>
                     Introduction
                     <div className={ styles["heading-after"] }></div>
                 </div>
-                <div ref={names["Introduction"]} className={styles["introduction-container"]}>
+                <div  className={styles["introduction-container"]}>
                     <About />
                     <Skills />
                 </div>
                 
-                <div className={styles["heading"]}>
+                <div ref={names["Work"]}  className={styles["heading"]}>
                     My Works
                     <div className={ styles["heading-after"] }></div>
                 </div>
-                <div ref={names["Work"]} className={styles["works-container"]}>
+                <div className={styles["works-container"]}>
                     <Works />
                 </div>
 
-                <div className={styles["heading"]}>
+                <div ref={names["Education"]} className={styles["heading"]}>
                     My Education
                     <div className={ styles["heading-after"] }></div>
                 </div>
-                <div ref={names["Education"]} className={styles["education-container"]}>
+                <div className={styles["education-container"]}>
                     <Education></Education>
                 </div>
 
-                <div className={styles["heading"]}>
+                <div ref={names["Contact"]} className={styles["heading"]}>
                     Contact Me
                     <div className={ styles["heading-after"] }></div>
                 </div>
-                <div ref={names["Contact"]} className={styles["contact-container"]}>
+                <div  className={styles["contact-container"]}>
                     <Contact></Contact>
                 </div>
             </div>
+            <ScrollButton/>
         </div>
     );
 };
