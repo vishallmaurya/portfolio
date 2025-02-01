@@ -6,7 +6,9 @@ import { faGithub} from "@fortawesome/free-brands-svg-icons";
 export const WorkCard = ({
     img_url = "",
     children = "",
-    overlay_content ="",
+    overlay_content = "",
+    github_link="#",
+    hosted="#",
     ...props
 }) => {
     return (
@@ -16,22 +18,32 @@ export const WorkCard = ({
                 <div className={styles["content-overlay"]}>
                     <p>{overlay_content}</p>
                     <div className={ styles["content-overlay-btns"] }>
-                        <div className={styles["content-overlay-btn"]}>
-                            <div className={styles["btn-image"]}>
-                                <img src="demo.png" alt="" />
+                        {hosted != "restricted" ?
+                            <div className={styles["content-overlay-btn"]}>
+                                <a href={hosted} className={styles["links"]} target="_blank" rel="noopener noreferrer">
+                                    <div className={styles["btn-image"]}>
+                                        <img src="demo.png" alt="" />
+                                    </div>
+                                    <div className={styles["btn-content"]}>
+                                        Demo
+                                    </div>
+                                </a>
                             </div>
-                            <div className={styles["btn-content"]}>
-                                Demo
+                            : ""
+                        }
+                        {github_link != "restricted" ?
+                            <div className={styles["content-overlay-btn"]}>
+                                <a href={github_link} className={styles["links"]} target="_blank" rel="noopener noreferrer">
+                                    <div className={styles["btn-image"]}>
+                                        <FontAwesomeIcon icon={faGithub} size="2x" />
+                                    </div>
+                                    <div className={styles["btn-content"]}>
+                                        Code
+                                    </div>
+                                </a>
                             </div>
-                        </div>
-                        <div className={styles["content-overlay-btn"]}>
-                            <div className={styles["btn-image"]}>
-                                <FontAwesomeIcon icon={faGithub} size="2x"/>
-                            </div>
-                            <div className={styles["btn-content"]}>
-                                Code
-                            </div>
-                        </div>
+                            : ""
+                        }  
                     </div>
                 </div>
             </div>

@@ -98,3 +98,8 @@
     font-size: 18px;
     font-weight: bold;
 }
+
+.links {
+    text-decoration: none;
+    color: inherit;
+}

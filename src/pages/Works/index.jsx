@@ -7,7 +7,15 @@ export const Works = () => {
         <div className={styles["work-card-container"]}>
             {
                 data.map((value) => (
-                    <WorkCard key={value.description} img_url={value.image_url} overlay_content={ value.overlay_content }>{ value.description }</WorkCard>
+                    <WorkCard
+                        key={value.description}
+                        img_url={value.image_url}
+                        overlay_content={value.overlay_content}
+                        github_link={value.github}
+                        hosted={value.hosted}
+                    >
+                        {value.description}
+                    </WorkCard>
                 ))                
             }
         </div>
