@@ -31,8 +31,8 @@
         "overlay_content": "Designed and implemented an interactive quiz application using core Java concepts to enhance user engagement and knowledge retention. The app features a user-friendly interface, dynamic question flow, and performance tracking, providing an engaging learning experience. This project demonstrates proficiency in Java programming and application development." ,
         "description": "Quiz" ,
         "image_url" : "java.png",
-        "github": "#",
-        "hosted": "#"
+        "github": "https://github.com/vishallmaurya/java-quiz",
+        "hosted": "restricted"
     },
     {
         "overlay_content": "Developed a Python script using Selenium to automate code submissions on Codeforces, ensuring users' streaks remain intact even if submissions are missed. The script maintains consistency in coding practice by automating routine tasks, streamlining the user experience. This project highlights expertise in Python, Selenium, and web automation." ,
